@@ -7,3 +7,12 @@ function login(){
 
     window.open('/loading', "_self");
 }
+
+function otp(){
+
+    window.open('/otp', "_self");
+}
+
+function passwordreset(){
+    window.open('/reset-password', "_self");
+}

@@ -19,4 +19,16 @@ app.get('/signup', (req, res) => {
 app.get('/loading', (req, res) => {
     res.render('loading')
 })
+
+app.get('/login-help', (req, res) => {
+    res.render('loginhelp')
+})
+
+app.get('/otp', (req, res) => {
+    res.render('otp')
+})
+
+app.get('/reset-password', (req, res) => {
+    res.render('setpassword')
+})
 app.listen(3000);
