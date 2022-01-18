@@ -5,6 +5,7 @@ const app = express();
 
 app.set('views', __dirname + '/views/pages');
 app.use(express.static(path.join(__dirname, 'public')))
+app.use( express.static( "public" ) );
 app.set('view engine', 'ejs');
  
 app.get('/', (req, res) => {
