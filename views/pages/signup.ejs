@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="pics/logo (2).png" type="image/x-icon">
+    <link href="css/signup.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>StreamHub</title>
+</head>
+<body>
+    <a class="logo"><img src="pics/logo.png"/></a>
+    <div class="login">
+      <h1 class="login__title">Register</h1>
+      <div class="login__group">
+        <input class="login__group__input" id="email" type="email" required="true"/>
+        <label class="login__group__label" >Email  </label>
+      </div>
+
+      <div class="login__group">
+        <input class="login__group__input" id="username" type="text" required="true"/>
+        <label class="login__group__label">Username  </label>
+      </div>
+
+      <div class="login__group">
+        <input class="login__group__input" id="password" type="password" required="true"/>
+        <label class="login__group__label">Password</label>
+      </div>
+
+      <div class="login__group">
+        <input class="login__group__input" id="password-check" type="password" required="true"/>
+        <label class="login__group__label">Confirm-Password</label>
+      </div>
+
+      <button class="login__sign-in" type="button" onclick="signup()">Register</button>
+      </div>
+</body>
+<script src="js/signup.js"></script>
+</html>
