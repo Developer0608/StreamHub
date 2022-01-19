@@ -116,3 +116,8 @@ body {
   ::placeholder {
     font-size: 0.7rem;
   }
+
+  .icon-google{
+    height: 20px;
+    width: 25px;
+  }
