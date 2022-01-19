@@ -20,15 +20,14 @@ body {
     background-blend-mode: multiply;
   }
   body .logo {
-     
     position: absolute;
     align-self: flex-start;
     left: 10px;
   }
   body .logo img {
-    height: 75px;
+    height: 56px;
     width: auto;
-    margin-top: 29px;
+    margin-top: 12px;
   }
   body .login {
     display: flex;

@@ -25,9 +25,9 @@ body {
     left: 10px;
   }
   body .logo img {
-    height: 75px;
+    height: 56px;
     width: auto;
-    margin-top: 29px;
+    margin-top: 12px;
   }
   body .login {
     display: flex;
