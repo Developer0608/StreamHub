@@ -32,3 +32,7 @@ app.get('/reset-password', (req, res) => {
     res.render('setpassword')
 })
 app.listen(3000);
+function newFunction() {
+    return connection();
+}
+

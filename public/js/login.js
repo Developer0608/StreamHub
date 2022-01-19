@@ -5,7 +5,16 @@ function login(){
 
     console.log(email, password);
 
-    window.open('/loading', "_self");
+    if(email === ""){
+        swal("Please specify email address");
+        return;
+    }
+
+    if(password === ""){
+        swal("Please enter the password");
+        return;
+    }
+    // window.open('/loading', "_self");
 }
 
 function otp(){
