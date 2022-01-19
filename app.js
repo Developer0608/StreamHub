@@ -31,6 +31,10 @@ app.get('/otp', (req, res) => {
 app.get('/reset-password', (req, res) => {
     res.render('setpassword')
 })
+
+app.get('/main', (req, res) => {
+    res.render('main')
+})
 app.listen(3000);
 function newFunction() {
     return connection();

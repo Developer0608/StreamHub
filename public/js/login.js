@@ -14,7 +14,8 @@ function login(){
         swal("Please enter the password");
         return;
     }
-    // window.open('/loading', "_self");
+    
+    window.open('/main', "_self");
 }
 
 function otp(){
